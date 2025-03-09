@@ -1,4 +1,4 @@
-function main() {
+(function () {
     console.log('------ Iniciando sistema ------');
 
     const peso = 75;
@@ -7,8 +7,7 @@ function main() {
     console.log(classificarImc(imc));
 
     console.log('------ Finalizando sistema ------');
-};
-main(); // Sobrepeso
+})(); // Sobrepeso
 
 function calcularImc( peso, altura ) {
     return peso / Math.pow( altura, 2 );
